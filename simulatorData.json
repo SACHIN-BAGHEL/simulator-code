@@ -1,0 +1,41 @@
+{
+  "AES": {
+    "algorithm" :"aes256",
+    "key" : "85CE6CCF67FBBAA8BB13479C3A6E084D"
+
+  },
+  "broadCastFrame" : {
+    "port":"",
+    "address":""
+  },
+  "keyExchangeFrame": {
+    "frameInfo": "keyExchangeFrame",
+    "msdId": 101,
+    "predefinedData": [],
+    "publicKey": "public",
+    "signedData": "v2c",
+    "payload": "payload",
+    "reserved": "reserved",
+    "CRC": ""
+  },
+  "blockchainFrame": {
+    "frameInfo": "blockchainFrame",
+    "msdId": 202,
+    "deviceToken": "public",
+    "previousHash": "previousHash",
+    "currentHash": "currentHash",
+    "payload": "payload",
+    "signature": "signature",
+    "crc": ""
+  },
+  "keyExchangeFrame22": {
+    "frameInfo": "keyExchangeFrame22",
+    "msdId": 303,
+    "predefinedData": [],
+    "publicKey": "public",
+    "signedData": "v2c",
+    "payload": "payload",
+    "reserved": "reserved",
+    "CRC": ""
+  }
+}
